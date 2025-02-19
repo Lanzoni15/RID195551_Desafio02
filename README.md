@@ -4,7 +4,7 @@
 
 ## 🚀 Acesse o Site  
 Explore o blog diretamente pelo link:  
-👉 **The Dev News - Blog Responsivo**  
+👉 **<a href="https://rid195551-desafio02.netlify.app/">The Dev News - Blog Responsivo</a>**  
 
 ## 🛠️ Estrutura do Projeto  
 O blog é construído com dois arquivos principais:  
