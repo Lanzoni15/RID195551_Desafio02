@@ -1,5 +1,3 @@
----
-
 # 🌐 The Dev News - Blog Responsivo  
 
 **The Dev News** é um blog responsivo desenvolvido como parte de um desafio para criar uma página web adaptável a diferentes dispositivos e tamanhos de tela. O design moderno e minimalista proporciona uma experiência agradável, com seções organizadas para destacar posts populares, conteúdos recentes e categorias relevantes.  
@@ -50,6 +48,4 @@ O cabeçalho exibe o nome **"The Dev News"** sobre um fundo verde vibrante, com 
 ## 🛠️ Tecnologias Utilizadas  
 ✔ **HTML5** – Estruturação da página.  
 ✔ **CSS3** – Estilização e responsividade.  
-✔ **Google Fonts** – Fonte **Montserrat** para um toque moderno.  
-
----
+✔ **Google Fonts** – Fonte **Montserrat** para um toque moderno.
