@@ -1,0 +1,258 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;
+    overflow-x: hidden;
+    width: 100vw;
+}
+
+
+.main-Princial {
+    background-color: #02A28F;
+    color: #FFFFFF;
+    padding: 1rem 9.75rem 1rem 9.75rem;
+    gap: .6rem;
+    width: 90vw;
+    height: 4.3vh;
+    display: flex;
+    justify-content: left;
+    margin-top: 0;
+}
+
+#menu-postsPopulares {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2.5rem;
+}
+
+#img-Menu {
+    background: linear-gradient(to top, #000000, #66666600),
+        url('img/background.jpeg') center/cover no-repeat;
+    width: 758px;
+    height: 26.5rem;
+    margin-top: 1rem;
+    margin-left: 9.2rem;
+    padding: 1.5rem;
+    gap: .6rem;
+    color: #FFFFFF;
+    border-radius: .6rem;
+}
+
+.opinion {
+    width: 3.75rem;
+    height: 1.25rem;
+    padding-top: 16em;
+    font-size: 1rem;
+    line-height: 1.21rem;
+    margin: 2px 0;
+}
+
+.text-Menu-Principal h2 {
+    width: 31.75rem;
+    height: 2.4rem;
+    font-weight: 43.7rem;
+    font-size: 2rem;
+    line-height: 2.4rem;
+    margin: 5px 0;
+}
+
+.by {
+    width: 8.1rem;
+    height: 1.2rem;
+    font-weight: 43.7rem;
+    font-size: 1rem;
+    line-height: 1.2rem;
+    margin: 5px 0;
+}
+
+.div-PostsPopulares h2 {
+    background-color: #02A28F;
+    color: #FFFFFF;
+    width: 40rem;
+    height: 1.5rem;
+    margin-top: 1rem;
+    border-radius: .6rem;
+    padding: 1rem 1.5rem 1.5rem 1rem;
+    gap: .6rem;
+}
+
+.popular-posts {
+    margin-bottom: 1.5rem;
+}
+
+.post-detail {
+    margin-left: -2.7rem;
+    display: flex;
+    align-items: center;
+    width: 40rem;
+    height: 5rem;
+    background: #FFF;
+    list-style: none;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    border-radius: .5rem;
+    box-shadow: 0 .5rem .5rem rgba(0, 0, 0, 0.1);
+}
+
+.post-detail>img {
+    width: 8.5rem;
+    height: 4.5rem;
+    border-radius: .5rem;
+    margin-right: .5rem;
+    object-fit: cover;
+}
+
+.post-detail>div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title-post {
+    color: #000;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: .5rem;
+}
+
+.text-post {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.text-post>p {
+    color: #616161;
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 0;
+}
+
+.titulo-postsRecenter {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+    gap: 19rem;
+
+    margin-top: 0;
+    margin-left: 9rem;
+    border-radius: 0.6rem;
+    padding: 0 1rem 2.5rem 1rem;
+
+    width: 48.5rem;
+    height: 1rem;
+
+    background-color: #02A28F;
+    color: #FFFFFF;
+
+}
+
+.titulo-postsRecenter h2 {
+    width: 25rem;
+    height: 1.5rem;
+    font-size: 1.2rem;
+}
+
+.div-posts {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: .9rem;
+    text-decoration: underline;
+    font-style: solid;
+    margin-top: .8rem;
+}
+
+#article-Desenvolvimento {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 22.5vw;
+    height: 24.75vh;
+    margin-top: 1rem;
+    margin-left: 9.2rem;
+    gap: 5rem;
+    background-color: #FFFFFF;
+    border-radius: solid;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+#article-Desenvolvimento a {
+    text-decoration: none;
+}
+
+.categories{
+    width: 25rem;
+    height: 3.5rem;
+    font-size: 1.2rem;
+    margin-top: -323px;
+    margin-left: 62rem;
+    gap: .8rem;
+}
+
+.categories h2 {
+    border-radius: 0.6rem;
+    padding: 1rem 1rem 1.8rem 1rem;
+
+    width: 40.2rem;
+    height: 1rem;
+
+    background-color: #02A28F;
+    color: #FFFFFF;
+}
+
+.list-categories {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.list-categories ul {
+    list-style: none;
+}
+
+.list-categories ul li{
+   margin: 1rem 0;
+}
+
+.list-categories ul li a {
+    text-decoration: none;
+    color: #616161;
+}
+
+footer {
+    padding: 1rem;
+    text-align: center;
+    background: #02A28F;
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: 70rem;
+}
+
+@media(min-width: 768px) {
+    main {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .text-Menu-Principal > h2 {
+        font-size: 2rem;
+    }
+
+    #asides {
+        padding-right: 5%;
+    }
+}
+
+
+@media(max-width: 768px) {
+    main {
+        flex-direction: row;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #asides {
+        padding: 5%;
+    }
+}
