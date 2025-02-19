@@ -1,4 +1,4 @@
-The Dev News - Blog Responsivo 🌐
+<h1> The Dev News - Blog Responsivo 🌐 </h1>
 Este projeto é um blog responsivo chamado The Dev News, desenvolvido como parte de um desafio para criar uma página web que se adapte a diferentes dispositivos e tamanhos de tela. O blog contém seções de posts populares, posts mais recentes e categorias, com um design moderno, limpo e visualmente atraente.
 
 🚀 Acesso ao Site
